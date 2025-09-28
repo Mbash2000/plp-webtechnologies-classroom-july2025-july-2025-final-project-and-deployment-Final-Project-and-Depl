@@ -91,4 +91,4 @@ Deploy your project and confirm that:
 
 ## view project live
 
-[https://mbash2000.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/careers.html]
+[https://mbash2000.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/]
