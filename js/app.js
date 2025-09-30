@@ -10,7 +10,7 @@ hamburger.addEventListener('click', () => {
 
 document.addEventListener('scroll', () => {
   var scroll_position = window.scrollY;
-  if (scroll_position > 250) {} else {
+  if (scroll_position > 250) { } else {
     header.style.backgroundColor = 'transparent';
   }
 });
@@ -26,19 +26,19 @@ let faqsRow = document.querySelectorAll(".faqs-icon");
 let arrow = document.querySelectorAll(".chevron");
 
 for (let i = 0; i < faqsRow.length; i++) {
-    faqsRow[i].addEventListener("click", () => {
-        console.log(faqsRow[i]);
-        let focusFaqs = faqsRow[i];
-       focusFaqs.classList.toggle("active");
-       arrow[i].classList.toggle("arrow-active");
+  faqsRow[i].addEventListener("click", () => {
+    console.log(faqsRow[i]);
+    let focusFaqs = faqsRow[i];
+    focusFaqs.classList.toggle("active");
+    arrow[i].classList.toggle("arrow-active");
 
     //    open FAQs answer when title container is clicked
-       let text = focusFaqs.nextElementSibling;
-        console.log(text);
-        if(text.style.display === "block") {
-            text.style.display = "none";
-        } else {
-            text.style.display = "block";
-        }
-    })
+    let text = focusFaqs.nextElementSibling;
+    console.log(text);
+    if (text.style.display === "block") {
+      text.style.display = "none";
+    } else {
+      text.style.display = "block";
+    }
+  })
 }

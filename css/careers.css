@@ -60,6 +60,7 @@
     font-size: var(--fs-m-v4-700);
     margin-bottom: .5rem;
 }
+
 /* end general section */
 
 
@@ -73,7 +74,7 @@
 
 
 /* media query for tablet */
-@media only screen and  (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .general {
         display: flex;
         flex-direction: row;

@@ -40,6 +40,7 @@
 .white-circle {
     display: none;
 }
+
 /* end hero section */
 
 
@@ -52,6 +53,7 @@
     font-size: var(--fs-m-v2-700);
     color: var(--dark-navy);
 }
+
 /* end facility section */
 
 
@@ -110,6 +112,7 @@
 .value-text p {
     color: var(--dark-navy);
 }
+
 /* end our value section */
 
 
@@ -158,7 +161,7 @@
     cursor: pointer;
 }
 
- .faqs-icon span {
+.faqs-icon span {
     font-size: var(--fs-m-v4-700);
     font-family: var(--ff-heading);
     color: var(--dim-grey);
@@ -181,16 +184,16 @@
 
 @keyframes faqs-text {
     from {
-    opacity: 0;
+        opacity: 0;
     }
 
     top {
-    opacity: 1;
+        opacity: 1;
     }
 }
 
 .active span {
-   color: var(--dark);
+    color: var(--dark);
 }
 
 .arrow-active {
@@ -207,6 +210,7 @@
     text-align: center;
     margin-top: 3rem;
 }
+
 /* end FAQs section */
 
 
@@ -217,39 +221,40 @@
     }
 
     .hero-desc {
-    display: flex;
-    flex-direction: row;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero-desc .text h1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 3rem;
+    }
+
+    .facility .facility-text h2 {
+        font-size: var(--fs-v2-700);
+        width: 485px;
+        text-align: center;
+    }
+
+    .facility .facility-text p {
+        width: 620px;
+    }
+
+    .values-container h3 {
+        font-size: var(--fs-v2-700);
+    }
+
+    .value-text h4 {
+        font-size: var(--fs-m-v2-700);
+    }
+
+    .value-text p {
+        width: 490px;
+    }
 }
 
-.hero-desc .text h1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 3rem;
-  }
-
-  .facility .facility-text h2 {
-      font-size: var(--fs-v2-700);
-      width: 485px;
-      text-align: center;
-  }
-
-  .facility .facility-text p {
-      width: 620px;
-  }
-
-  .values-container h3 {
-      font-size: var(--fs-v2-700);
-  }
-
-  .value-text h4 {
-      font-size: var(--fs-m-v2-700);
-  }
-
-  .value-text p {
-      width: 490px;
-  }
-}
 /* end media query for tablet */
 
 
@@ -286,4 +291,5 @@
     }
 
 }
+
 /* end media query for desktop */
